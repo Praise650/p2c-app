@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#2d1212",
+          "image": "./assets/red-wallet-logo.jpg",
+          "imageWidth": 200,
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "name": "Red Envelope",
+    "slug": "red-envelope-wallet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/red-wallet-logo.jpg",
+    "userInterfaceStyle": "#2d1212",
+    "newArchEnabled": true,
+    "backgroundColor": "#2d1212",
+    "splash": {
+      "image": "./assets/red-wallet-logo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#2d1212"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.deelad.redenvelopewallet",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/red-wallet-logo.jpg",
+        "backgroundColor": "#2d1212"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.deelad.redenvelopewallet"
+    },
+    "web": {
+      "favicon": "./assets/red-wallet-logo.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "80ae4da2-039f-41df-8e52-b286826cb4e6"
+      }
+    }
+  }
+}

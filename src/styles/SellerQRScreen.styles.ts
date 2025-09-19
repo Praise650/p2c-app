@@ -1,0 +1,112 @@
+import { StyleSheet } from 'react-native';
+import { Theme } from '../../types';
+
+export const createSellerQRScreenStyles = (theme: Theme) => StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 5,
+    paddingTop: 30,
+  },
+  header: {
+    height: 56,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 16,
+  },
+  backButton: {
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 16,
+  },
+  backText: {
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  title: {
+    fontSize: 16,
+    fontWeight: '700',
+  },
+  placeholder: { width: 48 },
+  content: { flex: 1 },
+  hero: {
+    height: 80,
+    marginHorizontal: 16,
+    borderRadius: 16,
+  },
+  card: {
+    marginTop: 16,
+    marginHorizontal: 16,
+    borderRadius: 16,
+    padding: 16,
+  },
+  sectionTitle: { fontSize: 16, fontWeight: '700', marginBottom: 4 },
+  sectionSubtitle: { fontSize: 12, fontWeight: '400', marginBottom: 16, opacity: 0.8 },
+  sectionHeader: { marginBottom: 8 },
+  sliderRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 },
+  sliderValue: { fontSize: 28, fontWeight: '800' },
+  sliderContainer: { marginTop: 8 },
+  slider: { marginTop: 12 },
+  sliderLabels: { flexDirection: 'row', justifyContent: 'space-between', marginTop: 4 },
+  sliderLabel: { fontSize: 10, fontWeight: '500' },
+  schemeRow: {
+    flexDirection: 'row',
+    gap: 12,
+    flexWrap: 'wrap',
+    marginTop: 8,
+  },
+  schemeChip: {
+    paddingHorizontal: 16,
+    paddingVertical: 14,
+    borderRadius: 12,
+    minWidth: 130,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+    transform: [{ scale: 1 }],
+  },
+  schemeChipSelected: {
+    shadowOpacity: 0.2,
+    shadowRadius: 6,
+    elevation: 5,
+  },
+  schemeChipText: {
+    fontSize: 13,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
+  qrBox: {
+    marginVertical: 12,
+    padding: 20,
+    borderRadius: 16,
+    alignItems: 'center',
+    backgroundColor: 'white',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  primaryButton: {
+    marginTop: 24,
+    marginHorizontal: 16,
+    paddingVertical: 16,
+    paddingHorizontal: 24,
+    borderRadius: 16,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 8,
+  },
+  primaryButtonText: {
+    fontWeight: '700',
+    fontSize: 16,
+    textAlign: 'center',
+  },
+});
+
+
